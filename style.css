@@ -1,0 +1,72 @@
+
+body {
+    background-color: rgba(0, 47, 255, 0.63);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#gameContainer {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+#gameBoard {
+    border: 3px solid orange;
+    max-width: 100%; 
+}
+.text{
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px; 
+    margin-top: 20px; 
+}
+#scoreText {
+    margin: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px; 
+    margin-top: 20px; 
+}
+
+#resetBtn {
+    margin: 10px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px; 
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px; 
+
+}
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .text{
+        text-align: center;
+    }
+    
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .text{
+        text-align: center;
+    }
+    
+}
