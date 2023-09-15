@@ -13,7 +13,7 @@ Welcome to the Snake Game implemented in JavaScript! This classic arcade game al
 - [License](#license)
 
 ## Demo
-Check out the live demo of the Snake Game [here](#insert-demo-link).
+Check out the live demo of the Snake Game [here]([#insert-demo-link](https://tanrandel.github.io/SnakeGame-JavaScript-/)).
 
 ## Features
 - Classic Snake gameplay with a responsive and user-friendly interface.
